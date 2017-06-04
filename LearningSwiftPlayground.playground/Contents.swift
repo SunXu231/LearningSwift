@@ -108,6 +108,20 @@ for (kind, numbers) in interestingNumners {
 print(largest)
 print(largestKind)
 
+// func 定义函数
+func greet(name: String, day: String) -> String {
+    return "Hello \(name) day is \(day)."
+}
+greet(name: "sunxu", day: "Tuesday")
+
+func eat(name: String, food: String) -> String {
+    return "Hi!, \(name) eat \(food)."
+}
+eat(name: "sunxu", food: "apple")
+
+
+
+
 
 
 
