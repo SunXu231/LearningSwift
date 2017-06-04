@@ -12,6 +12,7 @@
 		6EF8DF671EDFD452007B6AE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF8DF651EDFD452007B6AE9 /* Main.storyboard */; };
 		6EF8DF691EDFD452007B6AE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EF8DF681EDFD452007B6AE9 /* Assets.xcassets */; };
 		6EF8DF6C1EDFD452007B6AE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EF8DF6A1EDFD452007B6AE9 /* LaunchScreen.storyboard */; };
+		6EF8DF751EDFEFA2007B6AE9 /* SXTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF8DF741EDFEFA2007B6AE9 /* SXTabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		6EF8DF681EDFD452007B6AE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EF8DF6B1EDFD452007B6AE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6EF8DF6D1EDFD452007B6AE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EF8DF741EDFEFA2007B6AE9 /* SXTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SXTabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				6EF8DF611EDFD452007B6AE9 /* AppDelegate.swift */,
 				6EF8DF631EDFD452007B6AE9 /* ViewController.swift */,
+				6EF8DF731EDFEF83007B6AE9 /* TabBarController */,
 				6EF8DF651EDFD452007B6AE9 /* Main.storyboard */,
 				6EF8DF681EDFD452007B6AE9 /* Assets.xcassets */,
 				6EF8DF6A1EDFD452007B6AE9 /* LaunchScreen.storyboard */,
 				6EF8DF6D1EDFD452007B6AE9 /* Info.plist */,
 			);
 			path = LearningSwiftClass1;
+			sourceTree = "<group>";
+		};
+		6EF8DF731EDFEF83007B6AE9 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				6EF8DF741EDFEFA2007B6AE9 /* SXTabBarController.swift */,
+			);
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EF8DF641EDFD452007B6AE9 /* ViewController.swift in Sources */,
+				6EF8DF751EDFEFA2007B6AE9 /* SXTabBarController.swift in Sources */,
 				6EF8DF621EDFD452007B6AE9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				6EF8DF721EDFD452007B6AE9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
